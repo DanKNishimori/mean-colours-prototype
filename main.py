@@ -1,5 +1,5 @@
 import re
-from color import Color
+from color import Color, Colors
 
 
 COLOR_PTN = re.compile(r"#?([a-fA-F0-9]{6})")
@@ -17,7 +17,7 @@ def is_number(target: str) -> bool:
 
 
 def mean():
-    colors = []
+    colors: Colors = []
     while new := re.match(COLOR_PTN, input(f"mean > ")):
         colors.append(Color(new.group(1)))
     print(f"the mean is: {Color.mean(colors)}")
