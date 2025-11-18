@@ -7,9 +7,9 @@ This is an script I made for help me with a few problems related to colors.
 
 ```
 >>> m
-[0]> #00ff00
-[1]> #0000ff
-[2]>
+mean > #00ff00
+mean > #0000ff
+mean >
 the mean is: #007f7f
 
 >>>
